@@ -1,8 +1,8 @@
 const domain = 'meet.jit.si';
 const options = {
     roomName: 'W Kontakcie',
-    width: 700,
-    height: 700,
+    width: $(window).width() - 8,
+    height: $(window).height() - 8,
     parentNode: document.querySelector('#meet'),
     userInfo: {
         email: 'email@jitsiexamplemail.com',
