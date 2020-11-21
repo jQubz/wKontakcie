@@ -5,14 +5,15 @@ const options = {
     height: $(window).height() - 8,
     parentNode: document.querySelector('#meet'),
     userInfo: {
-        email: 'email@jitsiexamplemail.com',
-        displayName: 'John Doe'
+        email: 'anna@buziaczek.pl',
+        displayName: 'Anna Kowalska'
     },
     configOverwrite: {
-        startWithAudioMuted: true
+        startWithAudioMuted: true,
+        disableDeepLinking: true
     },
     interfaceConfigOverwrite: {
-        filmStripOnly: true
+        MOBILE_APP_PROMO: false
     },
 
 };
